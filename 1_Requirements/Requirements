@@ -1,1 +1,11 @@
-
+#DESCRIPTION
+This program is a simple project to built on where you can save the information of a person
+##REQUIREMENTS
+##HIGH LEVEL REQUIREMENTS
+we can add,modify and delete the info
+##LOW LEVEL REQUIREMENTS
+Very secure
+The password is hidden
+Prper login validation
+Proper validation in adding information
+##SWOT
