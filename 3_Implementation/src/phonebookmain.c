@@ -92,3 +92,9 @@ void menu(){
 		case '6':
 			exitfun();
 			break;
+		default:
+			system("cls");
+			printf("Invalid Enter.");
+			getch();
+}
+}
