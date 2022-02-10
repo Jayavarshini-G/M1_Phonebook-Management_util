@@ -6,12 +6,6 @@
 #include <stdlib.h>
 #include"main.h"
 
-void gotoxy(int x,int y){
-	COORD c;
-	c.X=x;
-	c.Y=y;
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),c);
-}
 int main(){
     system("cls");
 	system("color A");
@@ -20,7 +14,7 @@ int main(){
 }
 void name(){
 	system("cls");
-	gotoxy(31,4);
+
 	printf("NEW SECTION");
 	FILE *fptr;
 	char name[100];
@@ -33,32 +27,31 @@ void name(){
 		printf("Failed to create file.");
 	}
 	else{
-		gotoxy(31,6);
+
 		printf("Name:\t");
-		gotoxy(52,6);
+
 		gets(name);
-		gotoxy(31,7);
+
 		printf("Address:\t");
-		gotoxy(52,7);
+
 		gets(address);
-		gotoxy(31,8);
 		printf("gender:\t");
-		gotoxy(52,8);
+
 		gets(gen);
-		gotoxy(31,9);
+
 		printf("emailID:\t");
-		gotoxy(52,9);
+
 		gets(emailID);
-		gotoxy(31,10);
+
 		printf("contact Number:\t");
-		gotoxy(52,10);
+
 		scanf("%lf",&contact);
 		fprintf(fptr,"%s %s %s %s %.0lf\n",name,address,gen,emailID,contact);
 	}
 	fclose(fptr);
 	system("cls");
 	char ch;
-	gotoxy(31,4);
+
 	printf("Do you wannt to add more data.  Press 'y' for that:");
 	Sleep(1000);
 	fflush(stdin);
@@ -78,7 +71,7 @@ void Find(){
 	char name1[100];
 	system("cls");
 	fflush(stdin);
-	gotoxy(18,2);
+
 	printf("Enter the name of the person you want to see the detail:: ");
 	gets(name1);
 	fptr=fopen("jayavarshini.txt","r");
@@ -86,25 +79,25 @@ void Find(){
 	while(fscanf(fptr,"%s %s %s %s %lf\n",name,address,gen,emailID,&contact)!=EOF){
 		res=strcmp(name,name1);
 		if(res==0){
-			gotoxy(39,4);
+
 			printf("Record Found");
-			gotoxy(28,5);
+
 			printf("----------------------------------------");
-		gotoxy(31,6.5);
+
 		printf("Name:\t%s",name);
-		gotoxy(31,7);
+
 		printf("Address:\t%s",address);
-			gotoxy(31,8);
+
 		printf("gender:\t%s",gen);
-		gotoxy(31,9);
+
 		printf("emailID:\t%s",emailID);
-		gotoxy(31,10);
+
 		printf("contact Number:\t%.0lf",contact);
-		gotoxy(31,11);
+
 			printf("----------------------------------------");
 		flag=1;
 		Sleep(1000);
-			gotoxy(18,12);
+
 			printf("Enter y for menu option.");
 	while(getch()=='y'){
 		menu();
@@ -113,9 +106,9 @@ void Find(){
 }
 	if(flag==0){
 		system("cls");
-		gotoxy(39,4);
+		;
 		printf("No record found.");;
-		gotoxy(39,6);
+
 		printf("Enter a to enter file again or double 'y' key to open menu section:");
 		if(getch()=='a'){
 			system("cls");
@@ -131,7 +124,7 @@ void list(){
 	int f;
 	fptr=fopen("jayavarshini.txt","r");
 	system("cls");
-	gotoxy(31,2);
+
 	printf("LIST SECTION OPENED");
 	printf("\n");
 	while(fscanf(fptr,"%s %s %s %s %lf",name,address,gen,emailID,&contact)!=EOF){
@@ -161,7 +154,7 @@ void modify(){
 	fptr=fopen("jayavarshini.txt","r");
 	fptr1=fopen("temp.txt","a");
 	system("cls");
-	gotoxy(31,4);
+
 	printf("Enter the name: ");
 	gets(name1);
 	system("cls");
@@ -170,18 +163,18 @@ void modify(){
 		if(res==0)
 		{
 			f=1;
-			gotoxy(31,4);
+
 	printf("Change SECTION OPENED");
-			gotoxy(31,6);
+
 			printf("Enter the new address:");
 			scanf("%s",address1);
-				gotoxy(31,7);
+
 			printf("Enter the gen:");
 			scanf("%s",gen1);
-			gotoxy(31,8);
+
 			printf("Enter the new emailID:");
 			scanf("%s",emailID1);
-			gotoxy(31,9);
+
 			printf("Enter the new contact number:");
 			scanf("%lf",&contact1);
 			fprintf(fptr1,"%s %s %s %s %.0lf\n",name,address1,gen1,emailID1,contact1);
@@ -220,7 +213,7 @@ void deleted(){
 	fptr=fopen("jayavarshini.txt","r");
 	fptr1=fopen("temp.txt","a");
 	system("cls");
-	gotoxy(31,4);
+
 	printf("Enter the name to be deleted: ");
 	gets(name1);
 	system("cls");
@@ -259,14 +252,14 @@ void deleted(){
 }
 void exitfun(){
 	system("cls");
-	gotoxy(31,4);
+
 	printf("THANK YOU");
 	system("cls");
     system("color 7");
 }
 void password(void){
 	char passwords[20]={"jayavarshini"};
-	gotoxy(22,2);
+
 	int j;
 	int z;
 	char name[40]="WELCOME";
@@ -283,7 +276,7 @@ void password(void){
 		Sleep(50);
 		printf("\xDB");
 	}
-	gotoxy(30,4);
+
 	printf("Password:");
 	char ch,pass[20];
 	char w='*';
@@ -298,7 +291,7 @@ void password(void){
 			}
 	pass[i]='\0';
 	if(strcmp(pass,passwords)==0){
-		gotoxy(30,6);
+
 		printf("CORRECT PASSWORD.");
         system("color D");
 		Sleep(1000);
@@ -306,7 +299,7 @@ void password(void){
 	}
 	else{
         system("color 4");
-		gotoxy(30,6);
+
 		printf("PASSWORD MISMATCH.");
 		Sleep(700);
 		system("cls");
@@ -315,20 +308,20 @@ void password(void){
 }
 void menu(){
 	system("cls");
-	gotoxy(30,1);
-	printf("CONTACT LOG ");
-	gotoxy(31,4);
-	printf("1.Add New");
-	gotoxy(31,7);
-	printf("2.Find");
-	gotoxy(31,10);
-	printf("3.List");
-	gotoxy(31,13);
-	printf("4.Change");
-	gotoxy(31,16);
-	printf("5.Delete");
-	gotoxy(31,19);
-	printf("6.Exit");
+
+	printf("CONTACT LOG\n");
+
+	printf("1.Add New\n");
+
+	printf("2.Find\n");
+
+	printf("3.List\n");
+
+	printf("4.Change\n");
+
+	printf("5.Delete\n");
+
+	printf("6.Exit\n");
 	switch(getch()){
 		case '1':
 			name();
@@ -354,3 +347,4 @@ void menu(){
 			getch();
 }
 }
+
