@@ -1,4 +1,4 @@
-#indef _deleted_h_
+#ifndef _deleted_h_
 #define _deleted_h_
 
 void deleted();
