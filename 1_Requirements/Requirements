@@ -1,5 +1,13 @@
 #DESCRIPTION
-This program is a simple project to built on where you can save the information of a person
+This program is a simple project to built on where you can save the information of a person.
+##SWOT
+##4W'S&1H
+WHAT:Phone book management
+WHERE:used as daily applications
+WHEN:used for storage
+WHY:easy to manage log
+1H
+HOW:operates by user inputs
 ##REQUIREMENTS
 ##HIGH LEVEL REQUIREMENTS
 we can add,modify and delete the info
@@ -8,4 +16,4 @@ Very secure
 The password is hidden
 Prper login validation
 Proper validation in adding information
-##SWOT
+
