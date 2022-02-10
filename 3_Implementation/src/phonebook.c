@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <direct.h>
 #include <stdlib.h>
-#include "main.h"
+#include "menu.h"
 
 
 int main(){
