@@ -9,7 +9,11 @@
 *
 */
 
-#include phonebook.h
+#include <stdio.h>
+#include <conio.h>
+#include <direct.h>
+#include <string.h>
+#include <windows.h>
 
 void name(){
 	system("cls");
