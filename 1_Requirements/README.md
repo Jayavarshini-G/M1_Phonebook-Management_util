@@ -7,16 +7,23 @@ Requirements
 High level requirements
 
 It is very secure
+
 Password kept hidden
+
 Proper login validation
+
 proper validation in adding information
 
 Low level requirements
 
 Name
+
 emailid
+
 phonenumber
+
 gender
+
 address
 
 ##SWOT
@@ -24,7 +31,11 @@ address
 4W'S&1H
 
 WHAT:Phonebook management
+
 WHERE:used in mobile devices
+
 WHEN:to maintain logs
+
 WHY:easy to store data
+
 HOW:Operates by user inputs
