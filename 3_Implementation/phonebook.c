@@ -4,6 +4,7 @@
 #include <windows.h>
 #include <direct.h>
 #include <stdlib.h>
+#include"main.h"
 
 void gotoxy(int x,int y){
 	COORD c;
