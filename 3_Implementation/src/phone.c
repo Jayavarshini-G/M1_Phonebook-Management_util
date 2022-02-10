@@ -17,6 +17,12 @@ void modify(void);
 void deleted(void);
 void exitfun(void);
 
+void gotoxy(int x,int y){
+	COORD c;
+	c.X=x;
+	c.Y=y;
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),c);
+}
 int main(){
     system("cls");
 	system("color A");
