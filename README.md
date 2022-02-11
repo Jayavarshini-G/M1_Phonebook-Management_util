@@ -2,7 +2,7 @@
 
 A simple code in c to maintain phonebook logs
 
-**SWOT ANALYSIS**
+#**SWOT ANALYSIS**
 
 Strength:Easy and faster to use application
 
@@ -12,7 +12,7 @@ Opportunities:Required by most of the people
 
 Threats:other better applications avaiilable with advanced features
 
-**4W'S&1H**
+#**4W'S&1H**
 
 WHAT:Phonebook management
 
