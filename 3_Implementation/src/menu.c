@@ -11,9 +11,8 @@ void menu(){
 	printf("1.Add New\n");
 	printf("2.Find\n");
 	printf("3.List\n");
-	printf("4.Change\n");
-	printf("5.Delete\n");
-	printf("6.Exit\n");
+	printf("4.Delete\n");
+	printf("5.Exit\n");
 	switch(getch()){
 		case '1':
 			name();
@@ -25,12 +24,9 @@ void menu(){
 			list();
 			break;
 		case '4':
-			modify();
-			break;
-		case '5':
 			deleted();
 			break;
-		case '6':
+		case '5':
 			exitfun();
 			break;
 		default:
