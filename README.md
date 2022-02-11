@@ -18,9 +18,9 @@ WHAT:Phonebook management
 
 WHERE:Industries,Companies
 
-WHEN:to maintain logs
+WHEN:To maintain logs
 
-WHY:easy to store data
+WHY:Easy to store data
 
 HOW:Operates by user inputs
 
