@@ -2,7 +2,7 @@
 
 **SWOT ANALYSIS**
 
-strength:Easy and faster to use application
+Strength:Easy and faster to use application
 
 Weakness:Acquiring more information to store
 
