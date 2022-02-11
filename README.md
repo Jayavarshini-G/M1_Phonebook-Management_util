@@ -1,5 +1,7 @@
 # M1_Phonebook-Management_util
 
+A simple code in c to maintain phonebook logs
+
 **SWOT ANALYSIS**
 
 Strength:Easy and faster to use application
