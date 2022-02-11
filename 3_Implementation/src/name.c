@@ -14,7 +14,6 @@ void name(){
 	char address[100];
 	char emailID[100];
 	double contact;
-	char gen[8];
 	fptr=fopen("jayavarshini.txt","ab+");//ab+ gives us the ability of writing the function and add the second data in the existing one...
 	if(fptr==NULL){
 		printf("Failed to create file.");
@@ -25,13 +24,11 @@ void name(){
 		gets(name);
 		printf("Address:\t");
 		gets(address);
-		printf("gender:\t");
-		gets(gen);
 		printf("emailID:\t");
 		gets(emailID);
 		printf("contact Number:\t");
 		scanf("%lf",&contact);
-		fprintf(fptr,"%s %s %s %s %.0lf\n",name,address,gen,emailID,contact);
+		fprintf(fptr,"%s %s %s %.0lf\n",name,address,emailID,contact);
 	}
 	fclose(fptr);
 	system("cls");
