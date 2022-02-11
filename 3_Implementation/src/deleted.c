@@ -17,7 +17,7 @@ void deleted(){
 	printf("Enter the name to be deleted: ");
 	gets(name1);
 	system("cls");
-	while(fscanf(fptr,"%s %s %s %s %lf\n",name,address,gen,emailID,&contact)!=EOF){
+	while(fscanf(fptr,"%s %s %s  %lf\n",name,address,emailID,&contact)!=EOF){
 		res=strcmp(name,name1);
 		if(res==0)
 		{
@@ -25,7 +25,7 @@ void deleted(){
 			printf("DELETED ");
 
 		}else{
-			fprintf(fptr1,"%s %s %s %s %.0lf\n",name,address,gen,emailID,contact);
+			fprintf(fptr1,"%s %s %s %.0lf\n",name,address,emailID,contact);
 		}
 	}
 	if(f==0){
@@ -37,8 +37,8 @@ void deleted(){
 	fclose(fptr);
 	fptr=fopen("jayavarshini.txt","a");
 	fptr1=fopen("temp.txt","r");
-	while(fscanf(fptr1,"%s %s %s %s %lf\n",name,address,gen,emailID,&contact)!=EOF){
-		fprintf(fptr,"%s %s %s %s %.0lf\n",name,address,gen,emailID,contact);
+	while(fscanf(fptr1,"%s %s %s %lf\n",name,address,emailID,&contact)!=EOF){
+		fprintf(fptr,"%s %s %s %.0lf\n",name,address,emailID,contact);
 	}
 	fclose(fptr);
 	fclose(fptr1);
