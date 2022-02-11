@@ -26,16 +26,4 @@ gender
 
 address
 
-##SWOT
 
-4W'S&1H
-
-WHAT:Phonebook management
-
-WHERE:used in mobile devices
-
-WHEN:to maintain logs
-
-WHY:easy to store data
-
-HOW:Operates by user inputs
