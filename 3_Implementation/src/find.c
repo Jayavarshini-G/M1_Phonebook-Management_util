@@ -13,7 +13,6 @@ void Find(){
 	char address[100];
 	char emailID[100];
 	double contact;
-	char gen[8];
 	char name1[100];
 	system("cls");
 	fflush(stdin);
@@ -22,7 +21,7 @@ void Find(){
 	gets(name1);
 	fptr=fopen("jayavarshini.txt","r");
 	//fflush(stdin);
-	while(fscanf(fptr,"%s %s %s %s %lf\n",name,address,gen,emailID,&contact)!=EOF){
+	while(fscanf(fptr,"%s %s  %s %lf\n",name,address,emailID,&contact)!=EOF){
 		res=strcmp(name,name1);
 		if(res==0){
 
@@ -33,8 +32,6 @@ void Find(){
 		printf("Name:\t%s",name);
         printf("\n");
 		printf("Address:\t%s",address);
-        printf("\n");
-		printf("gender:\t%s",gen);
         printf("\n");
 		printf("emailID:\t%s",emailID);
         printf("\n");
