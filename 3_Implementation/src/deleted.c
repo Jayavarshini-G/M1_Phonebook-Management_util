@@ -7,7 +7,7 @@
 #include <stdlib.h>
 void deleted(){
 	FILE *fptr,*fptr1;
-	char name[100],address[100],emailID[100],emailID1[100],address1[100],name1[100],gen[8];
+	char name[100],address[100],emailID[100],address1[100],name1[100];
 	int res,f=0;
 	double contact,contact1;
 	fptr=fopen("jayavarshini.txt","r");
