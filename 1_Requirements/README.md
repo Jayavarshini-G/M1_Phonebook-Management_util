@@ -1,10 +1,10 @@
-Description
+**Description**
 
 The project  allows you to perform simple Phonebook operations like in your mobile. Adding new records, listing them, modifying them and updating, search for contacts saved, and deleting the phonebook records are the basic functions which make up the main menu of this Phonebook application.Personal information such as name, address, gender, emailid,phone numbers are asked while adding a record into the Phonebook.
 
-Requirements
+**Requirements**
 
-High level requirements
+**High level requirements**
 
 It is very secure
 
@@ -14,7 +14,7 @@ Proper login validation
 
 proper validation in adding information
 
-Low level requirements
+**Low level requirements**
 
 Name
 
