@@ -20,7 +20,6 @@ void list(){
 			printf("------------------------------------------\n");
 		printf("Name:%s\n",name);
 		printf("Address:%s\n",address);
-		printf("gen:%s\n",gen);
 		printf("emailID:%s\n",emailID);
 		printf("contact:%.0lf\n",contact);
 			f=1;
