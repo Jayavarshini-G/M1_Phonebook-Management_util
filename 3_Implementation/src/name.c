@@ -14,7 +14,7 @@ void name(){
 	char address[100];
 	char emailID[100];
 	double contact;
-	fptr=fopen("jayavarshini.txt","ab+");//ab+ gives us the ability of writing the function and add the second data in the existing one...
+	fptr=fopen("jayavarshini.txt","ab+");
 	if(fptr==NULL){
 		printf("Failed to create file.");
 	}
