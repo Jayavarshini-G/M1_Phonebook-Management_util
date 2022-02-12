@@ -47,10 +47,15 @@ WHEN:To maintain logs
 WHY:Easy to store data
 
 HOW:Operates by user inputs
-#**OUTPUT**
+
+# **OUTPUT**
+
 ![Login page](https://user-images.githubusercontent.com/98834011/153712320-50886501-060b-47d0-83a9-f84ddff980b8.png)
+
 ![home page](https://user-images.githubusercontent.com/98834011/153712317-71a1c01d-0d68-40c2-a0d5-9d058b74b2b4.png)
+
 ![find page](https://user-images.githubusercontent.com/98834011/153712315-ce81f94f-b586-4325-a07c-9770e1279fa0.png)
+
 ![List page](https://user-images.githubusercontent.com/98834011/153712319-6bed49da-c8ab-4d03-a425-f4acefda5e62.png)
 
 
