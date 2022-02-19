@@ -6,7 +6,7 @@ A simple code in c to maintain phonebook logs
 
 |**FOLDER**  | **DESCRIPTION**  | 
 |------------------|---------------------|
- 0_certificates  | screenshots of certificates obtained
+ 0_certificate | screenshots of certificates obtained
  1_Requirements  | Documents detailing requirements and resarch
  2_Architecture  | Documents specifying dwsign details
  3_Implementation | All code and documentation
