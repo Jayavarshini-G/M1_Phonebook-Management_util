@@ -4,7 +4,7 @@ src/name.c\
 src/find.c\
 src/list.c\
 src/deleted.c\
-src/exit.c\
+src/exitfun.c\
 
 INC = -Iinc\
 
@@ -24,4 +24,4 @@ clean:
 coverage:${PROJECT_NAME}
 	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(PROJECT_NAME)
 	./${PROJECT_NAME}
-	gcov -a src/main.c src/menu.c src/name.c src/find.c src/list.c src/deleted.c src/exit.c
+	gcov -a src/main.c src/menu.c src/name.c src/find.c src/list.c src/deleted.c src/exitfun.c
