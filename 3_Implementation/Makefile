@@ -8,7 +8,7 @@ src/deleted.c\
 
 INC = -Iinc\
 
-PROJECT_NAME = PHONEBOOK-MANAGEMENT.out
+PROJECT_NAME = PHONEBOOK.out
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME) -lncurses
