@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = PhoneBook
+PROJECT_NAME = Phonebook
 
 # Output directory
 BUILD = build
@@ -53,7 +53,7 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc phone_book.c $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
+	gcc phonebook.c $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
