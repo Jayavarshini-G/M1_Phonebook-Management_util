@@ -11,7 +11,7 @@ INC = -Iinc\
 PROJECT_NAME = PHONEBOOK.out
 
 $(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME) -Incurses
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME) -lncurses
 
 run:$(PROJECT_NAME)
 	./${PROJECT_NAME}
