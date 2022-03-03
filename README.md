@@ -22,4 +22,7 @@ A simple code in c to maintain phonebook logs
 
 ![image](https://user-images.githubusercontent.com/98834011/156553188-ddb8ee82-6480-4ca4-aaf1-655d64906213.png)
 
+# **Workflow**
+
+![image](https://user-images.githubusercontent.com/98834011/156559641-9ff2a01c-be17-4b5c-a199-ac810eafb8e5.png)
 
