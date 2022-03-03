@@ -21,3 +21,5 @@ A simple code in c to maintain phonebook logs
 # **Code Grade**
 ![image](https://user-images.githubusercontent.com/98834011/153614474-0b79e464-25f2-447a-b552-3c623889fc2f.png)
 
+
+.github/workflows/static_check.yml at 2e47726
