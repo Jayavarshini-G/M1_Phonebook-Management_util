@@ -15,12 +15,15 @@ A simple code in c to maintain phonebook logs
  6_ImagesAndVideos | screenshots of working code
 
 # **Code Quality**
-![image](https://user-images.githubusercontent.com/98834011/156553064-f678904d-36e5-41d6-8711-c425a13c4296.png)
+
+![image](https://user-images.githubusercontent.com/98834011/156692106-0258cf35-a0c0-486a-a4ab-6e281f1bc019.png)
+
 
 
 # **Code Grade**
 
-![image](https://user-images.githubusercontent.com/98834011/156553188-ddb8ee82-6480-4ca4-aaf1-655d64906213.png)
+![image](https://user-images.githubusercontent.com/98834011/156692077-6996be66-e4de-4428-b572-f894b898cc38.png)
+
 
 # **Workflow**
 
