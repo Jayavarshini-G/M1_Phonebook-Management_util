@@ -1,11 +1,11 @@
-#**CODE QUALITY**
+# **CODE QUALITY**
 
 https://api.codiga.io/project/31042/score/svg
 
 ![image](https://user-images.githubusercontent.com/98834011/156691900-9636c957-6446-4bb1-9314-0e13f5b9e98b.png)
 
 
-#**CODE GRADE**
+# **CODE GRADE**
 
 https://api.codiga.io/project/31042/status/svg
 
